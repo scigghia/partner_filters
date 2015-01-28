@@ -4,12 +4,12 @@
     <data>
 
         <!-- ======================================================	-->
-        <!--  					RES.PARTNER FILTER					-->
+        <!--  				RES.PARTNER.ADDRESS FILTER				-->
         <!-- ======================================================	-->
         <record id="view_res_partner_new_filters" model="ir.ui.view">
             <field name="name">res.partner.new.filters</field>
             <field name="model">res.partner.address</field>
-            <field name="inherit_id" ref="base.view_res_partner_address_filter "/>
+            <field name="inherit_id" ref="base.view_res_partner_address_filter"/>
             <field name="arch" type="xml">
                 <field name="country_id" position="before">
                     <field name="province"/>
