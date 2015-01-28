@@ -34,7 +34,7 @@
     'license': 'AGPL-3',
     "active": False,
     "installable": True,
-    "depends" : ['base', 'l10n_it_base', 'partner'],
+    "depends" : ['base', 'l10n_it_base'],
     "update_xml" : [
         'partner_view.xml',
         ],
