@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<openerp>
+    <data>
+
+        <!-- ======================================================	-->
+        <!--  					RES.PARTNER FILTER					-->
+        <!-- ======================================================	-->
+        <record id="view_res_partner_new_filters" model="ir.ui.view">
+            <field name="name">res.partner.new.filters</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_res_partner_address_filter "/>
+            <field name="arch" type="xml">
+                <field name="country_id" position="before">
+                    <field name="province"/>
+                    <field name="region" />
+                </field>
+            </field>
+        </record>
+
+    </data>
+</openerp>
